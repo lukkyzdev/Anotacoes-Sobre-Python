@@ -7,3 +7,11 @@
 
 > ### Aula 2-5
 
+Python é:
+- Linguagem de propósito geral
+- Fácil e intuitiva
+- Multiplataforma
+- Batteries included (Batérias incluidas, vem com muita coisa instalada)
+- Livre
+- Organizada
+
