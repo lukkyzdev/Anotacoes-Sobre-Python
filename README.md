@@ -15,7 +15,6 @@
 - Livre
 - Organizada
 
----
 O PEP 8 é o "Python Enhancement Proposal 8", que é um guia de estilo para a escrita de código python.
 O PEP 8 recomenda o uso de espaços em branco de maneira de consistente, incluindo a indentação de 4 espaços (não tabulações).
 
