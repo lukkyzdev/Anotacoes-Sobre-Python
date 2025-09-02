@@ -7,7 +7,7 @@
 
 > ### Aula 2-5
 
-Python é:
+**Python é:**
 - Linguagem de propósito geral
 - Fácil e intuitiva
 - Multiplataforma
@@ -15,3 +15,11 @@ Python é:
 - Livre
 - Organizada
 
+---
+O PEP 8 é o "Python Enhancement Proposal 8", que é um guia de estilo para a escrita de código python.
+O PEP 8 recomenda o uso de espaços em branco de maneira de consistente, incluindo a indentação de 4 espaços (não tabulações).
+
+- Usar **nomes descritivos minúsculos para variáveis e funções** (por exemplo, **minha_variável**);
+- Usar **letras maiúsculas separadas por sublinhados para nomes de classes** (por exemplo, **Minha_Classe**);
+- Recomenda-se manter linhas de código com até 79 caracteres de comprimento;
+- Importações devem ser organizadas de forma ordenada e agrupadas em seções.
