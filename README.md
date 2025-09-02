@@ -1,5 +1,5 @@
 # Anotações Sobre Python 🐍
-📚 Todas as minhas anotações feitas no curso de Python do [@gustavoguanabara](https://github.com/gustavoguanabara) e na faculdade de ADS 📝
+📚 Todas as minhas anotações feitas na faculdade de ADS e no curso de Python do [@gustavoguanabara](https://github.com/gustavoguanabara) 📝
 
 ---
 ## Python 3 - Módulo 1
