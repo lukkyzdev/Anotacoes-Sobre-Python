@@ -23,3 +23,31 @@ O PEP 8 recomenda o uso de espaços em branco de maneira de consistente, incluin
 - Usar **letras maiúsculas separadas por sublinhados para nomes de classes** (por exemplo, **Minha_Classe**);
 - Recomenda-se manter linhas de código com até 79 caracteres de comprimento;
 - Importações devem ser organizadas de forma ordenada e agrupadas em seções.
+
+---
+## Variáveis e Tipos de Dados
+O interpretador Python consegue **estabelecer o tipo de dado da variável observando seu valor.** Confira alguns exemplos:
+
+- x = 10
+- nome = 'aluno'
+- nota = 8.75
+- fez_inscricao = True
+
+**Observe que x=um número inteiro, nome=string, nota=um número decimal e fez_inscricao=booleano.** Será que Python é capaz de definir o tipo de variável somente com base no valor fornecido em cada variável?
+
+Utilizaremos a função print() e type().
+
+print(type(x))
+
+print(type(nome))
+
+print(type(nota))
+
+print(type(fez_inscricao))
+
+<class 'int'>
+<class 'str'>
+<class 'float'>
+<class 'bool'>
+
+Como esperado, o Python acertou todos os tipos de variáveis. Note, também, que em Python tudo é objeto. Sendo assim, os tipos de dados aparecem com a palavra “class”, que é uma classe.
