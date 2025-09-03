@@ -32,7 +32,13 @@ O interpretador Python consegue **estabelecer o tipo de dado da variável observ
 - nota = 8.75
 - fez_inscricao = True
 
-**Observe que x=um número inteiro, nome=string, nota=um número decimal e fez_inscricao=booleano.** Será que Python é capaz de definir o tipo de variável somente com base no valor fornecido em cada variável?
+Observe que:
+- x= número inteiro
+- nome= string
+- nota= número decimal
+- fez_inscricao= booleano
+
+Será que Python é capaz de definir o tipo de variável somente com base no valor fornecido em cada variável?
 
 Utilizaremos a função print() e type().
 
