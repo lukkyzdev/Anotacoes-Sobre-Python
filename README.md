@@ -36,18 +36,7 @@ O interpretador Python consegue **estabelecer o tipo de dado da variável observ
 
 Utilizaremos a função print() e type().
 
-print(type(x))
-
-print(type(nome))
-
-print(type(nota))
-
-print(type(fez_inscricao))
-
-<class 'int'>
-<class 'str'>
-<class 'float'>
-<class 'bool'>
+![Função Print e Type](./images/funçãoprintetype.png)
 
 Como esperado, o Python acertou todos os tipos de variáveis. Note, também, que em Python tudo é objeto. Sendo assim, os tipos de dados aparecem com a palavra “class”, que é uma classe.
 
