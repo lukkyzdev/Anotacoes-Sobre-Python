@@ -73,19 +73,6 @@ O comando elif, em Python, é uma abreviação de “else if”, sendo usado em 
 
 **Vamos verificar o exemplo de código a seguir:**
 
-idade = 25
-
-
-if idade < 18:
-
-    print(“Menor de idade”)
-
-elif idade >= 18 and idade < 65:
-
-    print(“Adulto”)
-
-else:
-
-    print(“Idoso”)
+![Exemplo Code 1](./images/exemplocode1.png)
 
 Repare na estrutura do if, elif e else. Ao final, definimos o que será feito com “:”. Além disso, utilizamos operadores relacionais e o “and” para combinar duas condições.
