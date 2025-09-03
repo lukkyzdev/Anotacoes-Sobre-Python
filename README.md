@@ -43,16 +43,7 @@ Como esperado, o Python acertou todos os tipos de variáveis. Note, também, que
 ---
 ## Operadores Relacionais 🌐
 
-**Operação** x **Significado**
-
-- "**<**" | Estritamente menor que
-- "**<=**" | Menor ou igual que
-- "**>**" | Estritamente maior que
-- "**>=**" | Maior ou igual que
-- "**==**" | Igual
-- "**!=**" | Diferente
-- "**is**" | Identidade do objeto
-- "**is not**" | Negação da identidade do objeto
+![Operação x Significado](./images/operaçãoxsignificado.png)
 
 Além dos operadores relacionais, que comparam valores, também utilizamos operadores booleanos para construir decisões mais complexas em programação. Os operadores booleanos ajudam a combinar diferentes condições e a orientar o fluxo do programa de acordo com a lógica desejada.
 
