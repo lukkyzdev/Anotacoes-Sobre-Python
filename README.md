@@ -82,3 +82,18 @@ O comando elif, em Python, é uma abreviação de “else if”, sendo usado em 
 ![Exemplo Code 1](./images/exemplocode1.png)
 
 Repare na estrutura do if, elif e else. Ao final, definimos o que será feito com “:”. Além disso, utilizamos operadores relacionais e o “and” para combinar duas condições.
+
+---
+## 𝐄𝐬𝐭𝐫𝐮𝐭𝐮𝐫𝐚𝐬 𝐝𝐞 𝐫𝐞𝐩𝐞𝐭𝐢𝐜̧𝐚̃𝐨 𝐟𝐨𝐫 𝐞 𝐰𝐡𝐢𝐥𝐞 📶
+
+- **FOR**
+
+O **for** em Python é uma estrutura de repetição **usada para executar ações várias vezes de forma controlada.** Ele percorre elementos de uma lista ou sequência e executa um código para cada um deles. É útil quando já sabemos quantas repetições serão feitas ou quando precisamos processar uma coleção de itens.
+
+Confira, a seguir, o exemplo simples de um loop for que itera por uma lista de números e imprime cada número:
+
+![Exemplo For 1](./images/for1.png)
+
+Nesse exemplo, a variável ‘numero’ assume o valor de cada elemento da lista ‘numeros’ em sequência, e o bloco de código dentro do loop é executado para
+
+cada valor. Isso resultará na impressão dos números de 1 a 5.
