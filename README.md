@@ -126,3 +126,12 @@ No primeiro método, você pode passar um único argumento para **range()**, que
 No segundo método, você pode fornecer dois argumentos para **range()**. O primeiro argumento representa o início das repetições e o segundo, o limite superior (não incluso) do valor da variável de controle. Por exemplo, **range(2, 7)** cria uma sequência que se inicia em 2 e vai até 6, realizando 5 iterações.
 
 ![Exemplo Limite Inicial e Superior](./images/limiteinisup.png)
+
+- **Método 3 – Com incremento**
+
+No terceiro método, você pode passar três argumentos para **range()**. O primeiro argumento é o início das repetições, o segundo é o limite superior (não incluso) e o terceiro argumento representa o incremento entre cada iteração. Por exemplo, **range(1, 11, 2)** cria uma sequência que começa em 1, vai até 10 e incrementa de 2 em 2, resultando nas iterações de 1, 3, 5, 7 e 9.
+
+![Exemplo Com Incremento 1](./images/comincremento.png)
+
+No Python, os comandos **break** e **continue** controlam o fluxo dos loops. O **break encerra o loop quando uma condição é atendida, saindo dele antes do fim.** Já o **continue faz o loop pular a iteração atual e seguir para a próxima, sem encerrar o loop inteiro.**
+
