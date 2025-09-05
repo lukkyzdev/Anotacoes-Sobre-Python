@@ -94,9 +94,7 @@ Confira, a seguir, o exemplo simples de um loop for que itera por uma lista de n
 
 ![Exemplo For 1](./images/for1.png)
 
-Nesse exemplo, a variável ‘numero’ assume o valor de cada elemento da lista ‘numeros’ em sequência, e o bloco de código dentro do loop é executado para
-
-cada valor. Isso resultará na impressão dos números de 1 a 5.
+Nesse exemplo, a variável ‘numero’ assume o valor de cada elemento da lista ‘numeros’ em sequência, e o bloco de código dentro do loop é executado para cada valor. Isso resultará na impressão dos números de 1 a 5.
 
 ![Exemplo For 2](./images/for2.png)
 
@@ -133,5 +131,21 @@ No terceiro método, você pode passar três argumentos para **range()**. O prim
 
 ![Exemplo Com Incremento 1](./images/comincremento.png)
 
-No Python, os comandos **break** e **continue** controlam o fluxo dos loops. O **break encerra o loop quando uma condição é atendida, saindo dele antes do fim.** Já o **continue faz o loop pular a iteração atual e seguir para a próxima, sem encerrar o loop inteiro.**
+No Python, os comandos **break** e **continue** controlam o fluxo dos loops.
+- O **break encerra o loop quando uma condição é atendida, saindo dele antes do fim.**
+- Já o **continue faz o loop pular a iteração atual e seguir para a próxima, sem encerrar o loop inteiro.**
 
+Suponha que desejemos encontrar o primeiro número par em uma sequência e interromper a iteração assim que o acharmos:
+
+![Exemplo Com Incremento 2](./images/comincremento2.png)
+
+Nesse exemplo, o loop “for” itera de 1 a 10, mas, assim que encontra o primeiro número par (2), o comando “break” é acionado. Desse modo, interrompe-se a execução do loop.
+
+O comando “continue” é usado para pular a iteração atual em uma estrutura de repetição e continuar com a próxima iteração. Isso é vantajoso quando você deseja ignorar uma iteração com base em uma condição, mas quer continuar com o restante do loop.
+Vamos considerar um loop que imprime todos os números de 1 a 10, exceto o número 5:
+
+![Exemplo Com Incremento 3](./images/comincremento3.png)
+
+Nesse caso, quando o número é igual a 5, o comando “continue” é acionado, fazendo com que a iteração atual seja abandonada. A execução continua com o próximo número.
+
+Em resumo, o **“break”** e o **“continue”** são comandos úteis para controlar o fluxo em estruturas de repetição, permitindo interromper loops antecipadamente com **“break”** e pular iterações específicas com **“continue”**, com base em condições específicas.
