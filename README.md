@@ -1,8 +1,8 @@
-# Anotações Sobre Python 🐍
+# Anotações Sobre Python
 📚 Todas as minhas anotações feitas na faculdade de ADS e no curso de Python do [@gustavoguanabara](https://github.com/gustavoguanabara) 📝
 
 ---
-## Python 3
+## Python 3 <img align="center" alt="Fontes-Python" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 ![Python](https://img.shields.io/badge/Python-3.13-green)
 
 **Python é:**
