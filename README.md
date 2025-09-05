@@ -2,10 +2,8 @@
 📚 Todas as minhas anotações feitas na faculdade de ADS e no curso de Python do [@gustavoguanabara](https://github.com/gustavoguanabara) 📝
 
 ---
-## Python 3 - Módulo 1
+## Python 3
 ![Python](https://img.shields.io/badge/Python-3.13-green)
-
-> ### Aula 2-5
 
 **Python é:**
 - Linguagem de propósito geral
