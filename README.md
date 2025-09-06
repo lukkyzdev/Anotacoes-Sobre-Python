@@ -22,7 +22,7 @@ O PEP 8 recomenda o uso de espaços em branco de maneira de consistente, incluin
 - Importações devem ser organizadas de forma ordenada e agrupadas em seções.
 
 ---
-## Variáveis e Tipos de Dados 🔠
+## 𝐕𝐚𝐫𝐢𝐚́𝐯𝐞𝐢𝐬 𝐞 𝐓𝐢𝐩𝐨𝐬 𝐝𝐞 𝐃𝐚𝐝𝐨𝐬 🔠
 O interpretador Python consegue **estabelecer o tipo de dado da variável observando seu valor.** Confira alguns exemplos:
 
 - x = 10
@@ -45,7 +45,7 @@ Utilizaremos a função print() e type().
 Como esperado, o Python acertou todos os tipos de variáveis. Note, também, que em Python tudo é objeto. Sendo assim, os tipos de dados aparecem com a palavra “class”, que é uma classe.
 
 ---
-## Operadores Relacionais 🌐
+## 𝐎𝐩𝐞𝐫𝐚𝐝𝐨𝐫𝐞𝐬 𝐑𝐞𝐥𝐚𝐜𝐢𝐨𝐧𝐚𝐢𝐬 🌐
 
 ![Operação x Significado](./images/operaçãoxsignificado.png)
 
@@ -58,7 +58,7 @@ Além dos operadores relacionais, que comparam valores, também utilizamos opera
 Operadores booleanos são usados para controlar o fluxo de execução com base em condições complexas e, assim, tornam viável a elaboração de programas que tomam decisões de acordo com critérios específicos.
 
 ---
-## Estruturas condicionais if, else e elif 🔃
+## 𝐄𝐬𝐭𝐫𝐮𝐭𝐮𝐫𝐚𝐬 𝐜𝐨𝐧𝐝𝐢𝐜𝐢𝐨𝐧𝐚𝐢𝐬 𝐢𝐟, 𝐞𝐥𝐬𝐞 𝐞 𝐞𝐥𝐢𝐟 🔃
 
 - A condição “se o semáforo estiver verde” é satisfeita (verdadeira), então você segue em frente (if).
 - A condição “se o semáforo estiver vermelho” não é satisfeita (falsa), então você para (else).
