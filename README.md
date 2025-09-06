@@ -161,3 +161,18 @@ Nesse caso, criamos uma lista chamada “números”, com cinco elementos. Em se
 
 ## 𝐅𝐮𝐧𝐜̧𝐚̃𝐨 𝐝𝐞𝐟𝐢𝐧𝐢𝐝𝐚 𝐩𝐞𝐥𝐨 𝐮𝐬𝐮𝐚́𝐫𝐢𝐨 (𝐜𝐨𝐦 𝐫𝐞𝐭𝐨𝐫𝐧𝐨 𝐞 𝐩𝐚𝐫𝐚̂𝐦𝐞𝐭𝐫𝐨)
 
+Além das funções prontas do Python, podemos criar nossas próprias funções para resolver problemas específicos. Nessas funções, o programador define o nome, os dados de entrada e o resultado, o que permite personalizar soluções de acordo com as necessidades do projeto.
+
+Acompanhe o exemplo de uma função que calcula a soma de dois números:
+
+![Função Usuário 1](./images/usu1.png)
+
+Nesse exemplo, definimos uma função chamada “soma”, que aceita dois argumentos: **a** e **b**. Dentro da função, realizamos a operação de adição entre esses dois números e retornamos o resultado. Em seguida, chamamos a função com os valores 5 e 3, e armazenamos o resultado retornado em uma variável chamada “resultado_soma”. Por fim, imprimimos o resultado.
+
+Outro exemplo interessante de ser observado é a criação de uma função para definir se um número é par:
+
+![Função Usuário 2](./images/usu2.png)
+
+Repare que definimos a função e utilizamos o operador “%”, que, em Python, é conhecido como operador de módulo ou operador de resto. Ele é usado para calcular o resto da divisão de um número pelo outro. Em uma expressão como **a % b**, o operador **%** retorna o valor do resto quando a é dividido por **b**.
+
+Sendo assim, se um número é dividido por 2 e tem resto zero, então esse número é par.
