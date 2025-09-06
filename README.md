@@ -147,3 +147,10 @@ Vamos considerar um loop que imprime todos os números de 1 a 10, exceto o núme
 Nesse caso, quando o número é igual a 5, o comando “continue” é acionado, fazendo com que a iteração atual seja abandonada. A execução continua com o próximo número.
 
 Em resumo, o **“break”** e o **“continue”** são comandos úteis para controlar o fluxo em estruturas de repetição, permitindo interromper loops antecipadamente com **“break”** e pular iterações específicas com **“continue”**, com base em condições específicas.
+
+---
+## 𝐅𝐮𝐧𝐜̧𝐨̃𝐞𝐬 𝐛𝐮𝐢𝐥𝐭-𝐢𝐧
+
+Confira, a seguir, o exemplo que utiliza a função built-in **len()** para calcular o comprimento de uma lista e, em seguida, imprime o resultado com comentários explicativos:
+
+![Função Built In 1](./images/builtin1.png)
