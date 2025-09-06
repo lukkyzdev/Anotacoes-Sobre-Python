@@ -154,3 +154,10 @@ Em resumo, o **“break”** e o **“continue”** são comandos úteis para co
 Confira, a seguir, o exemplo que utiliza a função built-in **len()** para calcular o comprimento de uma lista e, em seguida, imprime o resultado com comentários explicativos:
 
 ![Função Built In 1](./images/builtin1.png)
+
+![Funçao Built In 2](./images/builtin2.png)
+
+Nesse caso, criamos uma lista chamada “números”, com cinco elementos. Em seguida, usamos a função len() para calcular o comprimento dessa lista e armazenamos o resultado na variável “comprimento”. Por fim, imprimimos o valor do comprimento com uma mensagem explicativa.
+
+## 𝐅𝐮𝐧𝐜̧𝐚̃𝐨 𝐝𝐞𝐟𝐢𝐧𝐢𝐝𝐚 𝐩𝐞𝐥𝐨 𝐮𝐬𝐮𝐚́𝐫𝐢𝐨 (𝐜𝐨𝐦 𝐫𝐞𝐭𝐨𝐫𝐧𝐨 𝐞 𝐩𝐚𝐫𝐚̂𝐦𝐞𝐭𝐫𝐨)
+
