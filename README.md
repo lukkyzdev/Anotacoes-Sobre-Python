@@ -176,3 +176,9 @@ Outro exemplo interessante de ser observado é a criação de uma função para 
 Repare que definimos a função e utilizamos o operador “%”, que, em Python, é conhecido como operador de módulo ou operador de resto. Ele é usado para calcular o resto da divisão de um número pelo outro. Em uma expressão como **a % b**, o operador **%** retorna o valor do resto quando a é dividido por **b**.
 
 Sendo assim, se um número é dividido por 2 e tem resto zero, então esse número é par.
+
+Vamos testar essa função para dois valores: **123.120** e **1.355.989**
+
+![Função Usuário 3](./images/usu3.png)
+
+Note que a função retornou que o primeiro número é par e o segundo, não. Nesses exemplos, percebemos como é feita uma função definida por nós.
