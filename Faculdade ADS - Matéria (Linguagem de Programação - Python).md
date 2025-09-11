@@ -1,5 +1,5 @@
 # Anotações Sobre Python
-📚 Minhas anotações feitas na faculdade de ADS 📝
+📚 Minhas anotações feitas na faculdade de ADS da matéria Linguagem de Programação (Python) 📝
 
 ---
 ## Python 3 <img align="center" alt="Fontes-Python" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
