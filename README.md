@@ -185,7 +185,11 @@ Em Python, a premissa fundamental é a de que tudo gira em torno de objetos. De 
 
 - **Conheceremos três estruturas de dados: sequência, lista e tuplas.**
 
-Sequências são estruturas de dados que nos permitem armazenar coleções ordenadas de informações. As listas consistem em uma forma fundamental de objetos do tipo sequência e são mutáveis, o que significa que nesse caso podemos adicionar, remover e alterar elementos. Já as tuplas são praticamente semelhantes às listas, mas com uma diferença crucial: elas são imutáveis. Isso significa que, uma vez criadas, as tuplas não podem ser alteradas.
+**Sequências** = São estruturas de dados que nos permitem armazenar **coleções ordenadas de informações.**
+
+**Listas** =  Consistem em uma forma fundamental de objetos do tipo sequência e são mutáveis, o que significa que nesse caso podemos **adicionar, remover e alterar elementos.**
+
+**Tuplas** = São praticamente semelhantes às listas, mas com uma diferença crucial: **elas são imutáveis**. Isso significa que, uma vez criadas, as tuplas não podem ser alteradas.
 
 ## 𝐎𝐛𝐣𝐞𝐭𝐨𝐬 𝐝𝐨 𝐭𝐢𝐩𝐨 𝐬𝐞𝐪𝐮𝐞̂𝐧𝐜𝐢𝐚
 
