@@ -244,3 +244,17 @@ Nesse caso, usamos a função **map()** para aplicar uma função lambda que mul
 ![Lista 4](./images/lista4.png)
 
 Nesse exemplo, usamos a função **filter()** com uma função lambda que verifica se um número é par (resto da divisão por 2 igual a 0) e, em seguida, convertemos o resultado em uma lista. O resultado será uma lista contendo apenas os números pares.
+
+## 𝐓𝐮𝐩𝐥𝐚𝐬
+
+As tuplas são estruturas de dados pertencentes ao grupo de objetos do tipo sequência em Python. A principal distinção entre listas e tuplas é o fato de que as listas são mutáveis, permitindo a atribuição de valores a posições específicas, enquanto as tuplas são objetos imutáveis.
+
+Você pode criar tuplas em Python de três maneiras:
+
+**1** - Usando um par de parênteses para denotar uma tupla vazia: **tupla1 = ().**
+**2** - Usando um par de parênteses e elementos separados por vírgulas: **tupla2 = ('a', 'b', 'c').**
+**3** - Usando o construtor de tipo **tuple().**
+
+Um exemplo no qual criamos uma tupla chamada “vogais” e, posteriormente, usamos uma estrutura de repetição para imprimir cada elemento da tupla, juntamente com sua posição:
+
+![Tuola 1](./images/tupla1.png)
