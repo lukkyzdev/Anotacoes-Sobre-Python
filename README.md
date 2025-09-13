@@ -178,7 +178,6 @@ Vamos testar essa função para dois valores: **123.120** e **1.355.989**
 Note que a função retornou que o primeiro número é par e o segundo, não. Nesses exemplos, percebemos como é feita uma função definida por nós.
 
 ---
-
 > ## Unidade 2
 
 Em Python, a premissa fundamental é a de que tudo gira em torno de objetos. De acordo com a Python Software Foundation (PSF), todos os dados em um programa Python são representados por objetos ou pela relação entre objetos.
@@ -258,3 +257,10 @@ Você pode criar tuplas em Python de três maneiras:
 Um exemplo no qual criamos uma tupla chamada “vogais” e, posteriormente, usamos uma estrutura de repetição para imprimir cada elemento da tupla, juntamente com sua posição:
 
 ![Tuola 1](./images/tupla1.png)
+
+Nesse exemplo, utilizamos a função **enumerate()** para obter tanto a posição quanto o valor de cada elemento na tupla. É importante observar que as tuplas são imutáveis, o que significa que, uma vez criadas, não é possível alterar seu conteúdo.
+
+Isso as torna úteis em situações nas quais a ordem dos elementos deve permanecer inalterada. Além disso, as tuplas têm um papel fundamental em várias operações em Python, como no desempacotamento de valores e no retorno múltiplo de funções.
+
+---
+## 𝐎𝐛𝐣𝐞𝐭𝐨𝐬 𝐝𝐨 𝐭𝐢𝐩𝐨 𝐬𝐞𝐭
