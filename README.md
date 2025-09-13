@@ -223,3 +223,8 @@ Observe a função **index**, que retorna à posição de um valor na lista.
 
 ![Lista 1](./images/lista1.png)
 
+As **list comprehensions**, ou listcomps, são uma abordagem pythônica para criar listas com base em objetos iteráveis. Essa técnica é especialmente útil quando você deseja transformar ou filtrar as informações de uma sequência existente para construir uma nova sequência com as informações desejadas.
+
+ Para ilustrar essa técnica, vamos considerar um exemplo no qual temos uma lista de palavras e queremos **convertê-las em letras minúsculas.**
+
+ ![Lista 2](./images/lista2.png)
