@@ -5,7 +5,7 @@
 ## Python 3 <img align="center" alt="Fontes-Python" height="35" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
 ![Python](https://img.shields.io/badge/Python-3.13-green)
 
-> # Unidade 1
+> ## Unidade 1
 
 O PEP 8 é o "Python Enhancement Proposal 8", que é um guia de estilo para a escrita de código python.
 O PEP 8 recomenda o uso de espaços em branco de maneira de consistente, incluindo a indentação de 4 espaços (não tabulações).
@@ -179,7 +179,7 @@ Note que a função retornou que o primeiro número é par e o segundo, não. Ne
 
 ---
 
-> # Unidade 2
+> ## Unidade 2
 
 Em Python, a premissa fundamental é a de que tudo gira em torno de objetos. De acordo com a Python Software Foundation (PSF), todos os dados em um programa Python são representados por objetos ou pela relação entre objetos.
 
@@ -208,3 +208,14 @@ Vamos, agora, experimentar algumas dessas operações.
 ![Operações Comuns Sequência](./images/operaçõescomunssequencia.png)
 
 Na primeira demonstração, vimos algumas operações básicas para trabalhar com sequências em Python. A função **len()** mostra o tamanho da sequência. O operador **in** verifica se um valor está dentro da sequência. O método **count** conta quantas vezes um valor aparece. Também podemos usar colchetes para pegar partes específicas da sequência, como os elementos do índice 0 até 5.
+
+## 𝐋𝐢𝐬𝐭𝐚𝐬
+
+As listas são estruturas de dados em Python conhecidas por sua mutabilidade, o que significa que você pode adicionar ou remover elementos conforme necessário. **São estruturas indexadas, ou seja, cada elemento tem uma posição, começando em 0.**
+
+Considere o código a seguir, no qual criamos uma lista chamada **“cores”** e, em seguida, usamos uma estrutura de repetição para imprimir cada elemento junto com seu índice.
+
+Observe a função **index**, que retorna à posição de um valor na lista.
+
+![Lista 1](./images/lista1.png)
+
