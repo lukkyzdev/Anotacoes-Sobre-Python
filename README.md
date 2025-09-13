@@ -176,3 +176,35 @@ Vamos testar essa função para dois valores: **123.120** e **1.355.989**
 ![Função Usuário 3](./images/usu3.png)
 
 Note que a função retornou que o primeiro número é par e o segundo, não. Nesses exemplos, percebemos como é feita uma função definida por nós.
+
+---
+
+> # Unidade 2
+
+Em Python, a premissa fundamental é a de que tudo gira em torno de objetos. De acordo com a Python Software Foundation (PSF), todos os dados em um programa Python são representados por objetos ou pela relação entre objetos.
+
+- **Conheceremos três estruturas de dados: sequência, lista e tuplas.**
+
+Sequências são estruturas de dados que nos permitem armazenar coleções ordenadas de informações. As listas consistem em uma forma fundamental de objetos do tipo sequência e são mutáveis, o que significa que nesse caso podemos adicionar, remover e alterar elementos. Já as tuplas são praticamente semelhantes às listas, mas com uma diferença crucial: elas são imutáveis. Isso significa que, uma vez criadas, as tuplas não podem ser alteradas.
+
+## 𝐎𝐛𝐣𝐞𝐭𝐨𝐬 𝐝𝐨 𝐭𝐢𝐩𝐨 𝐬𝐞𝐪𝐮𝐞̂𝐧𝐜𝐢𝐚
+
+Os objetos do tipo sequência são como coleções versáteis que podem **armazenar vários valores**. Eles servem para organizar dados em uma ordem específica e são indexados por números inteiros não negativos.
+
+O primeiro elemento da sequência é acessado pelo índice 0, o segundo, pelo índice 1, e assim por diante, até o último elemento, que está na posição n - 1, onde n representa a capacidade de armazenamento da sequência.
+
+O grupo de estruturas de dados que se encaixam nessa categoria compartilha algumas operações comuns.
+
+![Operações Comuns](./images/operaçõescomuns.png)
+
+**Quadro 1 | Operações em comum dos objetos do tipo sequência.**
+
+Um texto, representado por objetos da classe **str (strings)**, é uma forma de sequência. Essas strings oferecem uma variedade de operações, como as descritas no Quadro 1, apresentado anteriormente.
+
+No entanto, é importante notar que as strings são objetos imutáveis, o que significa que não é possível modificar seu conteúdo atribuindo um novo valor a uma posição específica.
+
+Vamos, agora, experimentar algumas dessas operações.
+
+![Operações Comuns Sequência](./images/operaçõescomunssequencia.png)
+
+Na primeira demonstração, vimos algumas operações básicas para trabalhar com sequências em Python. A função **len()** mostra o tamanho da sequência. O operador **in** verifica se um valor está dentro da sequência. O método **count** conta quantas vezes um valor aparece. Também podemos usar colchetes para pegar partes específicas da sequência, como os elementos do índice 0 até 5.
