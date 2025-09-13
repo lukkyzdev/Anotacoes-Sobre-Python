@@ -219,12 +219,28 @@ As listas são estruturas de dados em Python conhecidas por sua mutabilidade, o 
 
 Considere o código a seguir, no qual criamos uma lista chamada **“cores”** e, em seguida, usamos uma estrutura de repetição para imprimir cada elemento junto com seu índice.
 
-Observe a função **index**, que retorna à posição de um valor na lista.
+- Observe a função **index**, que retorna à posição de um valor na lista.
 
 ![Lista 1](./images/lista1.png)
 
-As **list comprehensions**, ou listcomps, são uma abordagem pythônica para criar listas com base em objetos iteráveis. Essa técnica é especialmente útil quando você deseja transformar ou filtrar as informações de uma sequência existente para construir uma nova sequência com as informações desejadas.
+- As **list comprehensions**, ou listcomps, são uma abordagem pythônica para criar listas com base em objetos iteráveis. Essa técnica é especialmente útil quando você deseja transformar ou filtrar as informações de uma sequência existente para construir uma nova sequência com as informações desejadas.
 
- Para ilustrar essa técnica, vamos considerar um exemplo no qual temos uma lista de palavras e queremos **convertê-las em letras minúsculas.**
+Para ilustrar essa técnica, vamos considerar um exemplo no qual temos uma lista de palavras e queremos **convertê-las em letras minúsculas.**
 
- ![Lista 2](./images/lista2.png)
+![Lista 2](./images/lista2.png)
+
+No exemplo apresentado anteriormente, criamos a lista “linguagens”, que contém várias linguagens de programação. Em seguida, aplicamos uma list comprehension. No interior dos colchetes, utilizamos a variável “item” para representar cada elemento da lista original. Com a expressão “item.lower()”, transformamos cada elemento em minúsculas e substituímos os valores originais na mesma variável “linguagens”. Por fim, imprimimos a lista antes e depois da aplicação da list comprehension.
+
+- Agora, vamos explorar as funções **map()** e **filter()** em Python, que são usadas para manipular listas e aplicar transformações ou filtragens a elementos iteráveis. Primeiro, vou apresentar exemplos diferentes para cada função.
+
+Suponha que você tenha uma lista de preços em dólares e deseje convertê-los para reais usando uma taxa de câmbio fixa:
+
+![Lista 3](./images/lista3.png)
+
+Nesse caso, usamos a função **map()** para aplicar uma função lambda que multiplica cada preço em dólares pela taxa de câmbio. Depois, convertemos o resultado em uma lista. O resultado será uma lista com os preços em reais.
+
+- Agora, imagine que você tenha uma lista de números e queira filtrar apenas os números pares:
+
+![Lista 4](./images/lista4.png)
+
+Nesse exemplo, usamos a função **filter()** com uma função lambda que verifica se um número é par (resto da divisão por 2 igual a 0) e, em seguida, convertemos o resultado em uma lista. O resultado será uma lista contendo apenas os números pares.
