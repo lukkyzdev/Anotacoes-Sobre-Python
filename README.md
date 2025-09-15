@@ -277,3 +277,21 @@ Em Python, existem duas formas principais de criar objetos do tipo “set”:
 Confira, a seguir, um exemplo de criação de conjuntos:
 
 ![Set 1](./images/set1.png)
+
+Nesse código, criamos um conjunto vazio, chamado **meu_conjunto**, e adicionamos elementos a ele usando o método **add()**. Em seguida, verificamos se um elemento específico está no conjunto utilizando a instrução **in**. Por fim, removemos um elemento com o método **remove()** e imprimimos o conjunto atualizado. Conjuntos são úteis para armazenar valores únicos e efetuar operações de pertencimento.
+
+## 𝐎𝐛𝐣𝐞𝐭𝐨𝐬 𝐝𝐨 𝐭𝐢𝐩𝐨 𝐦𝐚𝐩𝐩𝐢𝐧𝐠
+
+Em Python, dicionários **(dict)** são estruturas de mapeamento que relacionam chaves a valores de forma mutável, permitindo atualizar ou adicionar pares dinamicamente.
+
+Podemos criar dicionários em Python das seguintes maneiras:
+
+- Usando um par de chaves para denotar um dicionário vazio: **dicionario1 = {}**.
+- Usando pares de elementos na forma **“chave: valor”** separados por vírgulas: **dicionario2 = {‘um’: 1, ‘dois’: 2, ‘três': 3}**.
+- Usando o construtor de tipo **dict()**.
+
+Observe, a seguir, alguns exemplos desses diferentes modos de criar um dicionário:
+
+![Dicionário](./images/dict.png)
+
+Mostramos quatro maneiras distintas de criar dicionários e atribuir valores a eles. Para acessar um valor em um dicionário, use a notação **nome_dicionario[chave]**. Já para atribuir um novo valor, utilize **nome_dicionario[chave] = novo_valor**. Dicionários são úteis para armazenar informações associadas por chaves exclusivas.
