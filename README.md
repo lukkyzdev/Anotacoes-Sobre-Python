@@ -295,3 +295,18 @@ Observe, a seguir, alguns exemplos desses diferentes modos de criar um dicionár
 ![Dicionário](./images/dict.png)
 
 Mostramos quatro maneiras distintas de criar dicionários e atribuir valores a eles. Para acessar um valor em um dicionário, use a notação **nome_dicionario[chave]**. Já para atribuir um novo valor, utilize **nome_dicionario[chave] = novo_valor**. Dicionários são úteis para armazenar informações associadas por chaves exclusivas.
+
+## 𝐎𝐛𝐣𝐞𝐭𝐨𝐬 𝐝𝐨 𝐭𝐢𝐩𝐨 𝐚𝐫𝐫𝐚𝐲 𝐍𝐮𝐦𝐏𝐲
+
+Em Python, a biblioteca **NumPy** se destaca entre as estruturas de dados por oferecer arrays multidimensionais, funções avançadas e integração com C/C++ e Fortran, além de recursos como álgebra linear, transformadas de Fourier e geração de números aleatórios.
+
+- Para começar a utilizar o **NumPy**, é necessário instalá-lo no ambiente Python. Você pode fazer isso facilmente com o comando **pip install numpy**. Em plataformas como o Anaconda ou Google Colab, o NumPy já está incluído.
+- Depois de instalado, você deve importar a biblioteca em seu projeto usando o comando **import numpy** sempre que quiser aproveitar seus recursos vantajosos.
+
+Confira o código a seguir:
+
+![Numpy 1](./images/numpy1.png)
+
+![Numpy 1.1](./images/numpy2.png)
+
+Nesse código, importamos o NumPy como **np**, criamos um array NumPy chamado **my_array**, realizamos operações matemáticas nele e acessamos elementos por índice. O NumPy oferece uma maneira eficiente de trabalhar com matrizes e executar operações em massa.
