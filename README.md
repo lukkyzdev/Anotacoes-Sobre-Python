@@ -264,3 +264,16 @@ Isso as torna úteis em situações nas quais a ordem dos elementos deve permane
 
 ---
 ## 𝐎𝐛𝐣𝐞𝐭𝐨𝐬 𝐝𝐨 𝐭𝐢𝐩𝐨 𝐬𝐞𝐭
+
+Em Python, **"set"** é uma estrutura de dados inspirada nos conjuntos matemáticos: não permite duplicatas, facilita testes de associação e possibilita operações como união, interseção e diferença.
+
+Além das operações familiares que já conhecemos para sequências, como **len(s)**, **x in s** e **x not in s**, os conjuntos oferecem funcionalidades adicionais. Podemos agregar um novo elemento a um conjunto usando **add(valor)** e remover elementos com **remove(valor)**.
+
+Em Python, existem duas formas principais de criar objetos do tipo “set”:
+
+- Usando um par de chaves e elementos separados por vírgulas, por exemplo: **set1 = {'a', 'b', 'c'}.**
+- Usando o construtor de tipo **set(iterable)** com um objeto iterável, como uma lista, uma tupla ou mesmo uma sequência de caracteres (string).
+
+Confira, a seguir, um exemplo de criação de conjuntos:
+
+![Set 1](./images/set1.png)
