@@ -351,3 +351,48 @@ Dessa forma, aproveitamos a reutilização de código e estendemos funcionalidad
 Nesse exemplo, criamos objetos “rex” e “whiskers” das classes-filhas “Cachorro” e “Gato”, respectivamente. Em seguida, chamamos o método fazer_barulho() em cada objeto para determinar o som que cada animal faz. Isso ilustra a herança em ação, quando as classes-filhas herdam o método da classe-pai, mas podem fornecer suas próprias implementações.
 
 ---
+## 𝐌𝐨́𝐝𝐮𝐥𝐨𝐬 𝐞 𝐛𝐢𝐛𝐥𝐢𝐨𝐭𝐞𝐜𝐚
+
+Em Python, o código é organizado com funções, classes e módulos, que permitem separar funcionalidades em arquivos .py independentes. Isso facilita a manutenção e a reutilização.
+
+Módulos funcionam como bibliotecas de funções específicas, oferecendo recursos como operações matemáticas (math) ou manipulação de arquivos e pastas (os). Eles tornam o código mais organizado e reaproveitável.
+
+- Como utilizar um módulo?
+
+![Módulo](./images/modulos.png)
+
+No primeiro modo, usamos a importação que carrega todas as funções na memória, trouxemos toda a funcionalidade de “math” e colocamos math.sqrt, por exemplo, para chamar a função sqrt.
+
+No segundo modo, utilizamos a importação que carrega todas as funções na memória, mas, nesse caso, demos um apelido para o módulo. Utilizamos m.sqrt, por exemplo, para chamar a função sqrt.
+
+No terceiro modo, usamos a importação que carrega funções específicas na memória, utilizando-a diretamente – sqrt(), por exemplo.
+
+## 𝐂𝐥𝐚𝐬𝐬𝐢𝐟𝐢𝐜𝐚𝐜̧𝐚̃𝐨 𝐝𝐨𝐬 𝐦𝐨́𝐝𝐮𝐥𝐨𝐬 (𝐛𝐮𝐢𝐥𝐭-𝐢𝐧, 𝐝𝐞 𝐭𝐞𝐫𝐜𝐞𝐢𝐫𝐨𝐬 𝐞 𝐩𝐫𝐨́𝐩𝐫𝐢𝐨𝐬)
+
+Podemos classificar os módulos (bibliotecas) em três categorias:
+
+**1- Módulos built-in:** embutidos no interpretador.
+
+**2- Módulos de terceiros:** criados por terceiros e disponibilizados via PyPI.
+
+**3- Módulos próprios:** criados pelo desenvolvedor.
+
+Os módulos built-in fazem parte do núcleo do Python e estão disponíveis diretamente no interpretador, sem necessidade de instalação. Eles fornecem funcionalidades básicas comuns a muitos programas, como **math, os, svs, random, datetime, re** e **collections.**
+
+Já os módulos de terceiros são criados por desenvolvedores externos e não fazem parte da biblioteca padrão. Geralmente são distribuídos pelo PyPI e podem ser instalados para adicionar funcionalidades extras aos programas Python.
+
+**1-** Ampliam a funcionalidade do Python em diversas áreas, como na manipulação de dados, gráficos, interfaces gráficas, integração com bancos de dados e aprendizado de máquina.
+
+**2-** A instalação é feita usando o gerenciador de pacotes padrão: pip. Exemplo: **pip install requests.**
+
+**3-** Gerenciar dependências é essencial à medida que projetos crescem. O uso de um arquivo requirements.txt facilita a instalação de todas as dependências em um único comando pip.
+
+**4-** Ambientes virtuais isolam projetos Python para evitar conflitos entre diferentes versões de módulos de terceiros.
+
+**5-** Conhecer as licenças dos módulos de terceiros é importante, pois eles podem variar de código aberto a proprietário, e a qualidade da manutenção pode mudar.
+
+**6-** Módulos de terceiros geralmente possuem comunidades ativas de desenvolvedores e documentação rica, fornecendo suporte e recursos valiosos.
+
+Exemplos de módulos de terceiros incluem **NumPy, pandas** e **Matplotlib.**
+
+Os módulos próprios (ou personalizados) são criados pelo próprio desenvolvedor para organizar e reutilizar código. Eles tornam o programa mais legível, manutenível e permitem criar bibliotecas personalizadas, promovendo a modularização — prática recomendada no desenvolvimento de software.
