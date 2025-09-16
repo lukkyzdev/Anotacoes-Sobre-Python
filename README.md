@@ -311,6 +311,7 @@ Confira o código a seguir:
 
 Nesse código, importamos o NumPy como **np**, criamos um array NumPy chamado **my_array**, realizamos operações matemáticas nele e acessamos elementos por índice. O NumPy oferece uma maneira eficiente de trabalhar com matrizes e executar operações em massa.
 
+---
 ## 𝐂𝐥𝐚𝐬𝐬𝐞𝐬
 
 Python é uma linguagem que oferece suporte ao paradigma orientado a objetos, viabilizando a implementação de encapsulamento, herança e polimorfismo.
@@ -333,3 +334,20 @@ A sintaxe para criar uma classe-filha que herda de uma classe-pai é simples e l
 
 ![Herança](./images/herança.png)
 
+**-** 𝐁𝐞𝐧𝐞𝐟𝐢́𝐜𝐢𝐨𝐬 𝐝𝐚 𝐡𝐞𝐫𝐚𝐧𝐜̧𝐚
+
+**1- Reutilização de código:** a herança permite que você reutilize o código existente, aproveitando a estrutura e a funcionalidade de classes-pai em suas subclasses.
+ 
+**2- Extensibilidade:** você pode estender ou adicionar comportamentos específicos às classes-filhas sem modificar as classes-pai, mantendo a coesão e a organização do código.
+ 
+**3- Hierarquia de classes:** é possível criar uma hierarquia de classes na qual classes-filhas podem herdar características comuns de classes-pai e, por sua vez, serem herdadas por outras classes.
+
+Imagine um cenário no qual tenhamos uma classe-pai chamada “Animal” com atributos e métodos gerais para representar qualquer animal. Podemos criar classes-filhas, como “Cachorro” e “Gato,” que herdam essas características gerais, mas que também podem ter comportamentos específicos, como latir e miar, respectivamente.
+
+Dessa forma, aproveitamos a reutilização de código e estendemos funcionalidades de acordo com a necessidade.
+
+![Benefícios](./images/herança2.png)
+
+Nesse exemplo, criamos objetos “rex” e “whiskers” das classes-filhas “Cachorro” e “Gato”, respectivamente. Em seguida, chamamos o método fazer_barulho() em cada objeto para determinar o som que cada animal faz. Isso ilustra a herança em ação, quando as classes-filhas herdam o método da classe-pai, mas podem fornecer suas próprias implementações.
+
+---
