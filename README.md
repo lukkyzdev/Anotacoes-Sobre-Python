@@ -425,5 +425,5 @@ O código apresentado anteriormente cria um simples gráfico de linha com os pon
 
 O Matplotlib disponibiliza uma variedade de opções de personalização para gráficos, permitindo que você ajuste cores, estilos de linha, marcadores e muitos outros aspectos. Trata-se de uma biblioteca eficiente para criar gráficos de alta qualidade em Python, sendo amplamente utilizada na análise e visualização de dados.
 
---
+---
 > ## Unidade 3
