@@ -396,3 +396,34 @@ Já os módulos de terceiros são criados por desenvolvedores externos e não fa
 Exemplos de módulos de terceiros incluem **NumPy, pandas** e **Matplotlib.**
 
 Os módulos próprios (ou personalizados) são criados pelo próprio desenvolvedor para organizar e reutilizar código. Eles tornam o programa mais legível, manutenível e permitem criar bibliotecas personalizadas, promovendo a modularização — prática recomendada no desenvolvimento de software.
+
+## 𝐌𝐚𝐭𝐩𝐥𝐨𝐭𝐥𝐢𝐛
+
+O **Matplotlib** é uma das bibliotecas de visualização mais populares em Python, oferecendo recursos para criar gráficos estáticos, interativos e animações de forma flexível.
+
+Normalmente, utiliza-se o módulo **pyplot**, que fornece uma interface de alto nível para construir gráficos de maneira prática.
+
+![Matplotlib](./images/matplotlib.png)
+
+![](./images/matplotlib2.png)
+
+Nesse exemplo:
+
+**1-** Importamos o módulo **pyplot** do Matplotlib como **plt.**
+
+**2-** Definimos listas x e y, que representam os pontos do gráfico.
+
+**3-** Usamos **plt.plot(x, y)** para criar o gráfico de linha.
+
+**4-** Adicionamos rótulos aos eixos X e Y com **plt.xlabel()** e **plt.ylabel().**
+
+**5-** Adicionamos um título ao gráfico com **plt.title().**
+
+**6-** Por fim, usamos **plt.show()** para exibir o gráfico.
+
+O código apresentado anteriormente cria um simples gráfico de linha com os pontos (1, 2), (2, 4), (3, 1), (4, 3) e (5, 5), rotulando os eixos e dando um título ao gráfico.
+
+O Matplotlib disponibiliza uma variedade de opções de personalização para gráficos, permitindo que você ajuste cores, estilos de linha, marcadores e muitos outros aspectos. Trata-se de uma biblioteca eficiente para criar gráficos de alta qualidade em Python, sendo amplamente utilizada na análise e visualização de dados.
+
+--
+> ## Unidade 3
