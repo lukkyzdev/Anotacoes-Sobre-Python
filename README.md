@@ -310,3 +310,26 @@ Confira o código a seguir:
 ![Numpy 1.1](./images/numpy2.png)
 
 Nesse código, importamos o NumPy como **np**, criamos um array NumPy chamado **my_array**, realizamos operações matemáticas nele e acessamos elementos por índice. O NumPy oferece uma maneira eficiente de trabalhar com matrizes e executar operações em massa.
+
+## 𝐂𝐥𝐚𝐬𝐬𝐞𝐬
+
+Python é uma linguagem que oferece suporte ao paradigma orientado a objetos, viabilizando a implementação de encapsulamento, herança e polimorfismo.
+
+A criação de uma classe em Python é feita com a palavra reservada “class”, seguida do nome da classe, e em um bloco indentado são definidos os atributos e métodos.
+
+ ![Classes 1](./images/classes1.png)
+
+ ![Classes 1.1](./images/classes2.png)
+
+Nesse exemplo, criamos a classe “Pessoa” com os atributos nome, idade e gênero, bem como os métodos cumprimentar e aniversário. Depois, construímos uma instância da classe “pessoa1” e demonstramos como acessar os atributos e chamar os métodos dessa instância.
+
+O construtor da classe __init__() é capaz de receber um valor diferente para cada objeto, o que é de suma importância na construção da classe. Note que nesse caso determinamos dois tipos diferentes de atributos: duas strings (nome e gênero) e um int (idade).
+
+## 𝐇𝐞𝐫𝐚𝐧𝐜̧𝐚
+
+A herança é um dos pilares fundamentais da programação orientada a objetos, pois permite que uma classe (a classe-filha) herde características e comportamentos de outra classe (a classe-pai). Em Python, essa técnica é amplamente suportada e flexível, possibilitando que uma classe-filha herde de múltiplas classes-pai, processo que configura um conceito conhecido como herança múltipla.
+
+A sintaxe para criar uma classe-filha que herda de uma classe-pai é simples e legível. A classe-filha é definida após o nome da classe-pai, entre parênteses.
+
+![Herança](./images/herança.png)
+
