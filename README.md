@@ -494,3 +494,18 @@ Confira um exemplo:
 
 Existem muitas visualizações possíveis. No exemplo anterior, utilizamos os gráficos de barras, de pizza e de linhas. No endereço [pandas](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html) você encontra a lista com todos os tipos de gráficos que podem ser construídos com o método plot() da biblioteca.
 
+# 𝐒𝐞𝐫𝐢𝐞𝐬
+
+Para criar um objeto do tipo Series no pandas, utilizamos o método **Series()** com vários parâmetros opcionais.
+
+O principal parâmetro é **“data”**, que pode conter um único valor, uma lista de valores ou um dicionário. Outros parâmetros, como **“index”**, **“dtype”** e **“name”**, têm valores-padrão predefinidos, tornando sua especificação opcional.
+
+**Exemplo 1: criar uma Series a partir de uma lista**
+
+![Series 1](./images/series1.png)
+
+**Exemplo 2: criar uma Series a partir de um dicionário**
+
+![Series 2](./images/series2.png)
+
+No primeiro exemplo, uma Series é criada a partir de uma lista de valores. Já no segundo, uma Series é criada a partir de um dicionário, de modo que as chaves se tornam os índices da Series e os valores são os dados correspondentes.
