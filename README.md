@@ -455,6 +455,21 @@ Confira um exemplo:
 
 ![Panda 1.1](./images/panda1.1.png)
 
-![Panda 1.2](./images/panda1.2png)
+![Panda 1.2](./images/panda1.2.png)
 
 Existem muitas visualizações possíveis. No exemplo anterior, utilizamos os gráficos de barras, de pizza e de linhas. No endereço [pandas](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html) você encontra a lista com todos os tipos de gráficos que podem ser construídos com o método plot() da biblioteca.
+
+# 𝐁𝐢𝐛𝐥𝐢𝐨𝐭𝐞𝐜𝐚 𝐒𝐞𝐚𝐛𝐨𝐫𝐧
+
+O Seaborn, uma biblioteca Python construída sobre a base do Matplotlib, destaca-se na criação de gráficos de forma especializada. Você pode usar essa biblioteca importando-a em seus projetos da seguinte forma: “import seaborn as sns”. Uma característica notável do Seaborn é seu repositório de conjuntos de dados prontos para uso, o que facilita a exploração das funcionalidades.
+
+Você pode acessar esses conjuntos de dados em [mwaskom](https://github.com/mwaskom/seaborn-data). Para ilustrar, vamos carregar dados sobre gorjetas (tips) e utilizá-los em nosso estudo. O Seaborn simplifica a criação de gráficos e as análises de dados, mostrando-se uma ferramenta valiosa para a visualização de informações.
+
+![Seaborn](./images/seaborn.png)
+
+![Seaborn 1.1](./images/seaborn1.1.png)
+
+- A escolha entre **barplot()** do Seaborn e os gráficos de barras do pandas depende da análise, sendo o Seaborn mais flexível graças ao parâmetro estimator.
+- O **barplot()** permite usar diferentes métricas, como soma e contagem, enquanto o pandas geralmente se limita à média.
+- Exemplos mostram que a média sugere gastos semelhantes entre homens e mulheres, mas a soma aparenta maior gasto masculino, algo explicado pela diferença na quantidade de registros.
+- Assim, a interpretação correta dos gráficos exige considerar o contexto dos dados para evitar conclusões equivocadas.
