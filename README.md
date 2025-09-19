@@ -445,20 +445,6 @@ Existem duas formas de criar o gráfico:
 
 No gráfico criado, utilizamos a opção 1, ou seja, foi o próprio módulo que criou o ambiente da figura e do eixo. 
 
-# 𝐁𝐢𝐛𝐥𝐢𝐨𝐭𝐞𝐜𝐚 𝐩𝐚𝐧𝐝𝐚𝐬
-
-Já conhecemos muitas funcionalidades da biblioteca pandas; uma delas diz respeito à visualização gráfica. As principais estruturas de dados da biblioteca pandas (Series e DataFrame) possuem o método plot(), construído com base no Matplotlib e que permite criar gráficos a partir dos dados nas estruturas.
-
-Confira um exemplo:
-
-![Panda](./images/panda.png)
-
-![Panda 1.1](./images/panda1.1.png)
-
-![Panda 1.2](./images/panda1.2.png)
-
-Existem muitas visualizações possíveis. No exemplo anterior, utilizamos os gráficos de barras, de pizza e de linhas. No endereço [pandas](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html) você encontra a lista com todos os tipos de gráficos que podem ser construídos com o método plot() da biblioteca.
-
 # 𝐁𝐢𝐛𝐥𝐢𝐨𝐭𝐞𝐜𝐚 𝐒𝐞𝐚𝐛𝐨𝐫𝐧
 
 O Seaborn, uma biblioteca Python construída sobre a base do Matplotlib, destaca-se na criação de gráficos de forma especializada. Você pode usar essa biblioteca importando-a em seus projetos da seguinte forma: “import seaborn as sns”. Uma característica notável do Seaborn é seu repositório de conjuntos de dados prontos para uso, o que facilita a exploração das funcionalidades.
@@ -473,3 +459,38 @@ Você pode acessar esses conjuntos de dados em [mwaskom](https://github.com/mwas
 - O **barplot()** permite usar diferentes métricas, como soma e contagem, enquanto o pandas geralmente se limita à média.
 - Exemplos mostram que a média sugere gastos semelhantes entre homens e mulheres, mas a soma aparenta maior gasto masculino, algo explicado pela diferença na quantidade de registros.
 - Assim, a interpretação correta dos gráficos exige considerar o contexto dos dados para evitar conclusões equivocadas.
+
+# 𝐁𝐢𝐛𝐥𝐢𝐨𝐭𝐞𝐜𝐚 𝐩𝐚𝐧𝐝𝐚𝐬
+
+**Pandas é uma biblioteca open source do Python voltada para manipulação e análise de dados tabulares e séries temporais.** Oferece estruturas como DataFrames e Series, que tornam o trabalho com dados mais intuitivo e eficiente.
+
+Algumas características notáveis do pandas incluem:
+
+**1- DataFrames e Series:** estruturas flexíveis para dados em tabela (2D) e lista/matriz (1D).
+
+**2- Manipulação:** funções para filtrar, selecionar, ordenar, agrupar e agregar.
+
+**3- Leitura/escrita:** suporta vários formatos, como CSV, Excel e SQL.
+
+**4- Dados ausentes:** permite preencher ou remover valores faltantes.
+
+**5- Visualização:** integra-se a bibliotecas como Matplotlib e Seaborn.
+
+**6- Integração:** construído sobre NumPy, unindo cálculos numéricos e manipulação de dados.
+
+**7- Comunidade:** ativa, com suporte e atualizações constantes.
+
+O pandas é amplamente utilizado em análise de dados, ciência de dados e engenharia de dados. Ele oferece uma maneira eficiente e amigável de lidar com dados.
+
+Já conhecemos muitas funcionalidades da biblioteca pandas; uma delas diz respeito à visualização gráfica. As principais estruturas de dados da biblioteca pandas (Series e DataFrame) possuem o método plot(), construído com base no Matplotlib e que permite criar gráficos a partir dos dados nas estruturas.
+
+Confira um exemplo:
+
+![Panda](./images/panda.png)
+
+![Panda 1.1](./images/panda1.1.png)
+
+![Panda 1.2](./images/panda1.2.png)
+
+Existem muitas visualizações possíveis. No exemplo anterior, utilizamos os gráficos de barras, de pizza e de linhas. No endereço [pandas](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html) você encontra a lista com todos os tipos de gráficos que podem ser construídos com o método plot() da biblioteca.
+
