@@ -526,3 +526,21 @@ Na URL [Lista de bancos com falha](https://www.fdic.gov/bank-failures/failed-ban
 ![Dataframes](./images/dataframes.png)
 
 Nesse exemplo, trouxemos o tipo de cada variável existente no DataFrame, além das cinco primeiras linhas como o comando head(). Com isso, mostramos quão rica é a biblioteca pandas e suas diversas aplicações.
+
+# 𝐋𝐢𝐧𝐠𝐮𝐚𝐠𝐞𝐦 𝐝𝐞 𝐜𝐨𝐧𝐬𝐮𝐥𝐭𝐚 𝐞𝐬𝐭𝐫𝐮𝐭𝐮𝐫𝐚𝐝𝐚 – 𝐒𝐐𝐋
+
+A linguagem SQL (Structured Query Language) desempenha um papel fundamental na comunicação com bancos de dados relacionais. Ela foi inicialmente estabelecida como um padrão pelo American National Standards Institute (ANSI) em 1986 e passou por várias revisões desde então. Embora diferentes fornecedores de softwares de banco de dados, como Oracle e Microsoft, tenham adaptado o SQL com suas extensões e modificações exclusivas, ainda existe um núcleo comum de comandos SQL que é padrão em todos os sistemas.
+
+As instruções em SQL podem ser agrupadas em três categorias principais:
+
+**1 - DDL (Data Definition Language – Linguagem de Definição de Dados):**
+
+- Define a estrutura do banco, permitindo criar, alterar e excluir bancos e tabelas (ex.: CREATE, ALTER, DROP).
+
+**2- DML (Data Manipulation Language – Linguagem de Manipulação de Dados):**
+
+- Manipula os dados, possibilitando consultar, inserir, atualizar e excluir registros (ex.: SELECT, INSERT, UPDATE, DELETE).
+
+**3- DCL (Data Control Language – Linguagem de Controle de Dados):**
+
+- Controla permissões e segurança, concedendo ou revogando acessos (ex.: GRANT, REVOKE).
