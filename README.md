@@ -509,3 +509,20 @@ O principal parâmetro é **“data”**, que pode conter um único valor, uma l
 ![Series 2](./images/series2.png)
 
 No primeiro exemplo, uma Series é criada a partir de uma lista de valores. Já no segundo, uma Series é criada a partir de um dicionário, de modo que as chaves se tornam os índices da Series e os valores são os dados correspondentes.
+
+# 𝐋𝐞𝐢𝐭𝐮𝐫𝐚 𝐝𝐞 𝐝𝐚𝐝𝐨𝐬 𝐞𝐬𝐭𝐫𝐮𝐭𝐮𝐫𝐚𝐝𝐨𝐬 𝐜𝐨𝐦 𝐚 𝐛𝐢𝐛𝐥𝐢𝐨𝐭𝐞𝐜𝐚 𝐩𝐚𝐧𝐝𝐚𝐬
+
+Um recurso poderoso no pandas é a capacidade de ler dados estruturados e armazená-los em um DataFrame. A biblioteca oferece vários métodos de leitura de dados, identificados pelo padrão “read”, como pandas.read_XXXXX(). Cada um desses métodos é projetado para ler diferentes tipos de fontes de dados.
+
+- Para exemplificar, vamos explorar o método **pandas.read_html()**, que é utilizado para extrair tabelas de uma página da web.
+
+Esse método identifica automaticamente elementos HTML <table> em uma página e retorna uma lista de DataFrames. O parâmetro “io” define a URL, e outros ajustes permitem tratar a formatação dos dados, tornando o pandas útil para adquirir informações de páginas web.
+
+Na URL [Lista de bancos com falha](https://www.fdic.gov/bank-failures/failed-bank-list) encontra-se uma tabela com bancos norte-americanos que faliram desde 1º de outubro de 2000. Nesse caso, cada linha representa um banco.
+
+![Lepandas](./images/lepandas.png)
+![Lepandas2](./images/lepandas2.png)
+
+![Dataframes](./images/dataframes.png)
+
+Nesse exemplo, trouxemos o tipo de cada variável existente no DataFrame, além das cinco primeiras linhas como o comando head(). Com isso, mostramos quão rica é a biblioteca pandas e suas diversas aplicações.
