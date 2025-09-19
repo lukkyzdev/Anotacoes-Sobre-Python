@@ -427,3 +427,34 @@ O Matplotlib disponibiliza uma variedade de opções de personalização para gr
 
 ---
 > ## Unidade 3
+
+# 𝐌𝐚𝐭𝐩𝐥𝐨𝐭𝐥𝐢𝐛 𝟏.𝟏
+
+O Matplotlib, criado por John Hunter, é uma biblioteca essencial em Python para visualização de dados, substituindo o uso de softwares externos como gnuplot e MATLAB.
+
+Sua instalação é simples com pip install **matplotlib**, e o módulo **pyplot** facilita a criação de gráficos, geralmente importado como **plt**.
+
+Os gráficos permitem narrar dados visualmente, podendo ser exemplificados com valores aleatórios gerados pelo módulo random e representados em um gráfico de linhas.
+
+![Mat](./images/mat.png)
+
+Existem duas formas de criar o gráfico:
+
+- O pyplot cria e gerencia automaticamente figuras e eixos, e usa as funções do pyplot para plotagem.
+- Criar explicitamente figuras e eixos, e chamar métodos sobre eles (o “estilo orientado a objetos (OO)”).
+
+No gráfico criado, utilizamos a opção 1, ou seja, foi o próprio módulo que criou o ambiente da figura e do eixo. 
+
+# 𝐁𝐢𝐛𝐥𝐢𝐨𝐭𝐞𝐜𝐚 𝐩𝐚𝐧𝐝𝐚𝐬
+
+Já conhecemos muitas funcionalidades da biblioteca pandas; uma delas diz respeito à visualização gráfica. As principais estruturas de dados da biblioteca pandas (Series e DataFrame) possuem o método plot(), construído com base no Matplotlib e que permite criar gráficos a partir dos dados nas estruturas.
+
+Confira um exemplo:
+
+![Panda](./images/panda.png)
+
+![Panda 1.1](./images/panda1.1.png)
+
+![Panda 1.2](./images/panda1.2png)
+
+Existem muitas visualizações possíveis. No exemplo anterior, utilizamos os gráficos de barras, de pizza e de linhas. No endereço [pandas](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.plot.html) você encontra a lista com todos os tipos de gráficos que podem ser construídos com o método plot() da biblioteca.
