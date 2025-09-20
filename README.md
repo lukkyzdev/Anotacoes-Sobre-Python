@@ -544,3 +544,36 @@ As instruções em SQL podem ser agrupadas em três categorias principais:
 **3- DCL (Data Control Language – Linguagem de Controle de Dados):**
 
 - Controla permissões e segurança, concedendo ou revogando acessos (ex.: GRANT, REVOKE).
+
+Além das categorias, o SQL inclui recursos como agregações, junções, subconsultas e transações, permitindo consultas complexas e manipulação eficiente de dados. Sua flexibilidade o torna poderoso em qualquer SGBD, e apesar das variações entre fornecedores, a base comum garante consultas portáteis entre diferentes plataformas.
+
+# 𝐂𝐨𝐧𝐞𝐱𝐚̃𝐨 𝐜𝐨𝐦 𝐛𝐚𝐧𝐜𝐨 𝐝𝐞 𝐝𝐚𝐝𝐨𝐬
+
+Quando uma aplicação precisa interagir com um banco de dados relacional, é necessário estabelecer uma conexão para enviar comandos SQL. Tecnologias como ODBC (Open Database Connectivity) e JDBC (Java Database Connectivity) permitem essa comunicação entre a linguagem de programação e o RDBMS.
+
+ODBC e JDBC fornecem acesso padronizado ao banco via API, possibilitando que aplicações usem diferentes SGBDs sem recompilar o código. Isso é feito por meio de drivers, que traduzem as chamadas para a linguagem do banco.
+
+No Python, a conexão é feita com bibliotecas específicas que usam esses drivers. O PEP 249 define regras para módulos de acesso, incluindo o método connect(parameters...), que facilita a troca de bancos apenas ajustando os parâmetros de conexão.
+
+O SQLite é uma biblioteca em C que implementa um banco SQL completo e confiável. Diferente de outros SGBDs, não precisa de servidor, armazenando todo o banco (tabelas, índices, triggers e views) em um único arquivo no sistema.
+
+- Python, a linguagem possui um módulo integrado chamado “sqlite3”, o qual permite a interação com o mecanismo do banco de dados SQLite.
+
+Vamos criar um banco de dados!
+
+![Banco Dados](./images/bancodados.png)
+![Banco Dados 2](./images/bancodados2.png)
+
+**1-** Importamos o módulo **sqlite3** e conectamos (ou criamos) um banco de dados chamado “exemplo.db”.
+
+**2-** Criamos um objeto cursor que nos permite executar comandos SQL.
+
+**3-** Definimos o comando SQL para criar a tabela “Produtos” com campos para “id”, “nome”, “preco” e “estoque”.
+
+**4-** Executamos o comando SQL usando o cursor.
+
+**5-** Confirmamos as alterações no banco de dados com **commit().**
+
+**6-** Por fim, fechamos a conexão com o banco de dados.
+
+O comando **CREATE TABLE** é um exemplo de DDL (Data Definition Language, ou Linguagem de Definição de Dados), pois possibilita a definição de uma nova estrutura de banco de dados.
