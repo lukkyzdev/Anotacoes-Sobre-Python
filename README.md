@@ -577,3 +577,25 @@ Vamos criar um banco de dados!
 **6-** Por fim, fechamos a conexão com o banco de dados.
 
 O comando **CREATE TABLE** é um exemplo de DDL (Data Definition Language, ou Linguagem de Definição de Dados), pois possibilita a definição de uma nova estrutura de banco de dados.
+
+# 𝐂𝐑𝐔𝐃 – 𝐂𝐑𝐄𝐀𝐓𝐄, 𝐑𝐄𝐀𝐃, 𝐔𝐏𝐃𝐀𝐓𝐄, 𝐃𝐄𝐋𝐄𝐓𝐄
+
+Podemos inserir informações (create), ler (read), atualizar (update) e apagar (delete). Os passos necessários para efetuar uma das operações do CRUD são sempre os mesmos: (i) estabelecer a conexão com um banco; (ii) criar um cursor e executar o comando; (iii) gravar a operação; (iv) fechar o cursor e a conexão.
+
+Vamos criar um exemplo no qual haverá a inserção de um novo produto na tabela “Produtos”. Suponhamos que você deseje adicionar um novo produto com nome, preço e quantidade em estoque.
+
+![Crud](./images/crud.png)
+
+Confira, a seguir, um exemplo de como você pode recuperar todos os produtos da tabela “Produtos” e exibi-los:
+
+![Crud 2](./images/crud2.png)
+
+Acompanhe, agora, um exemplo de como atualizar o preço de um produto específico na tabela “Produtos”:
+
+![Crud 3](./images/crud3.png)
+
+Observe, a seguir, um exemplo de como excluir um produto da tabela “Produtos” com base no seu ID:
+
+![Crud 4](./images/crud4.png)
+
+É importante lembrar que esses são exemplos simplificados. Em uma aplicação real, talvez você precise adicionar tratamento de erros, validação de dados e outros recursos extras. Por isso é essencial sempre praticar e analisar cada vez mais exemplos para compreender tais conceitos.
