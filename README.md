@@ -527,6 +527,8 @@ Na URL [Lista de bancos com falha](https://www.fdic.gov/bank-failures/failed-ban
 
 Nesse exemplo, trouxemos o tipo de cada variável existente no DataFrame, além das cinco primeiras linhas como o comando head(). Com isso, mostramos quão rica é a biblioteca pandas e suas diversas aplicações.
 
+
+---
 # 𝐋𝐢𝐧𝐠𝐮𝐚𝐠𝐞𝐦 𝐝𝐞 𝐜𝐨𝐧𝐬𝐮𝐥𝐭𝐚 𝐞𝐬𝐭𝐫𝐮𝐭𝐮𝐫𝐚𝐝𝐚 – 𝐒𝐐𝐋
 
 A linguagem SQL (Structured Query Language) desempenha um papel fundamental na comunicação com bancos de dados relacionais. Ela foi inicialmente estabelecida como um padrão pelo American National Standards Institute (ANSI) em 1986 e passou por várias revisões desde então. Embora diferentes fornecedores de softwares de banco de dados, como Oracle e Microsoft, tenham adaptado o SQL com suas extensões e modificações exclusivas, ainda existe um núcleo comum de comandos SQL que é padrão em todos os sistemas.
@@ -600,6 +602,7 @@ Observe, a seguir, um exemplo de como excluir um produto da tabela “Produtos�
 
 É importante lembrar que esses são exemplos simplificados. Em uma aplicação real, talvez você precise adicionar tratamento de erros, validação de dados e outros recursos extras. Por isso é essencial sempre praticar e analisar cada vez mais exemplos para compreender tais conceitos.
 
+---
 # 𝐌𝐞́𝐭𝐨𝐝𝐨𝐬 𝐩𝐚𝐫𝐚 𝐥𝐞𝐢𝐭𝐮𝐫𝐚 𝐞 𝐞𝐬𝐜𝐫𝐢𝐭𝐚 𝐝𝐚 𝐛𝐢𝐛𝐥𝐢𝐨𝐭𝐞𝐜𝐚 𝐩𝐚𝐧𝐝𝐚𝐬
 
 A biblioteca pandas tem como principal propósito a manipulação de dados estruturados, como aqueles organizados em tabelas com linhas e colunas.
@@ -633,3 +636,20 @@ Por fim, é possível criar novas colunas no DataFrame com a sintaxe df_[‘nova
 ![Captra 3](./images/captra3.png)
 
 Usamos os módulos datetime, classe date e o método today(). Ao criar a coluna, a biblioteca pandas “entende” que se deve colocar o valor em todas as linhas, isto é, tanto a data da extração quanto o responsável. A manipulação/transformação dos dados muda conforme as especificidades da situação e do problema envolvidos. 
+
+# 𝐄𝐱𝐭𝐫𝐚𝐜̧𝐚̃𝐨 𝐝𝐞 𝐢𝐧𝐟𝐨𝐫𝐦𝐚𝐜̧𝐨̃𝐞𝐬
+
+Depois de saber coletar os dados e transformá-los, devemos passar para o próximo passo, que é extrair informação deles. Nessa etapa, precisamos conhecer o que estamos procurando para tentar encontrar esse elemento nos dados. Existem inúmeras ferramentas e maneiras pelas quais podemos fazer isso, como por meio de filtros utilizando loc., filtros utilizando testes booleanos, entre outras medidas.
+
+Veja, a seguir, como utilizar **loc.**:
+
+![Ext Panda](./images/extinfopanda.png)
+
+Confira, agora, um exemplo no qual se utiliza o teste booleano:
+
+![Booleano](./images/booleanopanda.png)
+
+Como resultado, esse teste traz duas saídas para cada valor: true ou false. Testes booleanos são de grande importância para diversas situações.
+
+---
+> ## Unidade 4
