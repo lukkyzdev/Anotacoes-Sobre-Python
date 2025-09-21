@@ -599,3 +599,37 @@ Observe, a seguir, um exemplo de como excluir um produto da tabela “Produtos�
 ![Crud 4](./images/crud4.png)
 
 É importante lembrar que esses são exemplos simplificados. Em uma aplicação real, talvez você precise adicionar tratamento de erros, validação de dados e outros recursos extras. Por isso é essencial sempre praticar e analisar cada vez mais exemplos para compreender tais conceitos.
+
+# 𝐌𝐞́𝐭𝐨𝐝𝐨𝐬 𝐩𝐚𝐫𝐚 𝐥𝐞𝐢𝐭𝐮𝐫𝐚 𝐞 𝐞𝐬𝐜𝐫𝐢𝐭𝐚 𝐝𝐚 𝐛𝐢𝐛𝐥𝐢𝐨𝐭𝐞𝐜𝐚 𝐩𝐚𝐧𝐝𝐚𝐬
+
+A biblioteca pandas tem como principal propósito a manipulação de dados estruturados, como aqueles organizados em tabelas com linhas e colunas.
+
+- Esses dados podem ser provenientes de diversas fontes, como arquivos, páginas web, APIs, outros softwares, serviços de armazenamento em nuvem e bancos de dados. A biblioteca oferece uma variedade de métodos que permitem a leitura e o carregamento desses dados em estruturas chamadas DataFrames.
+
+Os métodos de leitura de dados no pandas seguem o padrão **“pd.read_XXXX”**, onde “pd” é o alias da biblioteca e “XXXX” varia conforme o tipo de dado. Além de ler, o pandas também permite escrever dados de um DataFrame em arquivos, bancos de dados ou até na área de transferência, tornando-se uma ferramenta versátil para manipulação de dados estruturados de diferentes origens.
+
+O Quadro 1, a seguir, mostra os métodos de leitura e escrita para os diferentes tipos de dados:
+
+![MMEES](./images/mmees.png)
+![MMEES](./images/mmees2.png)
+![MMEES](./images/mmees3.png)
+
+# 𝐂𝐚𝐩𝐭𝐮𝐫𝐚 𝐞 𝐭𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦𝐚𝐜̧𝐚̃𝐨 𝐝𝐨𝐬 𝐝𝐚𝐝𝐨𝐬
+
+A captura e a transformação dos dados são etapas essenciais na análise e no machine learning, pois envolvem coletar informações brutas de diferentes fontes e prepará-las para uso. O **pandas** auxilia nesse processo ao oferecer estruturas flexíveis e ferramentas eficazes para manipulação e padronização dos dados.
+
+Vamos analisar um exemplo:
+
+![Captra](./images/captra.png)
+
+O processo começa com a importação do pandas, seguido da leitura de um arquivo JSON. O DataFrame resultante possui 9.379 registros e 2 colunas, com índices de 0 a 9.378, sem valores nulos e dados do tipo object.
+
+Em seguida, é feita a verificação de duplicidade usando drop_duplicates(). No exemplo, o comando mantém o último registro e sobrescreve o DataFrame na memória. Nesse caso, não foram encontradas linhas duplicadas.
+
+Por fim, é possível criar novas colunas no DataFrame com a sintaxe df_[‘nova_coluna’] = dado. No exemplo, foram adicionadas colunas para a data da extração e o responsável pela coleta dos dados.
+
+![Captra 2](./images/captra2.png)
+
+![Captra 3](./images/captra3.png)
+
+Usamos os módulos datetime, classe date e o método today(). Ao criar a coluna, a biblioteca pandas “entende” que se deve colocar o valor em todas as linhas, isto é, tanto a data da extração quanto o responsável. A manipulação/transformação dos dados muda conforme as especificidades da situação e do problema envolvidos. 
