@@ -653,3 +653,31 @@ Como resultado, esse teste traz duas saídas para cada valor: true ou false. Tes
 
 ---
 > ## Unidade 4
+
+# 𝐀𝐬𝐬𝐞𝐫𝐭𝐢𝐨𝐧𝐬
+
+As **assertions** são expressões utilizadas para verificar as condições de verdade durante a execução do código. Elas são fundamentais para a detecção precoce de erros, assegurando que as suposições sobre o comportamento do programa sejam atendidas.
+
+- Confira, a seguir, um exemplo simples de como as assertions podem ser empregadas:
+
+![Assertions](./images/assertions.png)
+
+O código cria uma função divisão, a qual, como bem sabemos, tem uma particularidade: a divisão por zero. Nesse caso, o algoritmo avisa sobre o erro.
+
+# 𝐃𝐨𝐜𝐭𝐞𝐬𝐭
+
+O **doctest** é um módulo em Python que permite incorporar testes diretamente na documentação do código, aproveitando os exemplos presentes na documentação para verificar se o código funciona conforme o esperado.
+
+- Vamos considerar o seguinte trecho de código com doctests:
+
+![Doctest](./images/doctest.png)
+
+A função square é acompanhada por uma string de documentação que inclui exemplos de uso. **Esses exemplos estão formatados de maneira especial, usando o prompt >>>, que indica um bloco de código Python.**
+
+Quando você executa **doctest.testmod()**, o módulo doctest procura todas as strings de documentação no seu código que contenham blocos de código >>> e executa esses blocos como testes. Ele compara a saída real desses blocos com o resultado esperado fornecido nos comentários.
+
+**No caso do exemplo anterior, doctest.testmod() executará a função square(3) e verificará se o resultado é igual a 9, executará square(-2) e verificará se o resultado é 4, e assim por diante.**
+
+Se todos os testes passarem, o doctest não produzirá nenhuma saída. Se houver uma discrepância entre a saída real e a esperada, o doctest imprimirá uma mensagem indicando onde ocorreu o problema.
+
+A principal vantagem do doctest é que ele permite que você mantenha exemplos na documentação e, ao mesmo tempo, os utilize como testes automatizados. Isso ajuda a garantir que a documentação esteja sempre em sincronia com o código real.
