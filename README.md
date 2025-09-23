@@ -681,3 +681,19 @@ Quando você executa **doctest.testmod()**, o módulo doctest procura todas as s
 Se todos os testes passarem, o doctest não produzirá nenhuma saída. Se houver uma discrepância entre a saída real e a esperada, o doctest imprimirá uma mensagem indicando onde ocorreu o problema.
 
 A principal vantagem do doctest é que ele permite que você mantenha exemplos na documentação e, ao mesmo tempo, os utilize como testes automatizados. Isso ajuda a garantir que a documentação esteja sempre em sincronia com o código real.
+
+# 𝐌𝐨́𝐝𝐮𝐥𝐨 𝐮𝐧𝐢𝐭𝐭𝐞𝐬𝐭
+
+O módulo unittest disponibiliza uma estrutura de teste mais avançada, viabilizando a organização de testes em classes e métodos, além de fornecer assertions mais poderosas.
+
+Confira, a seguir, um exemplo simples de uso do unittest:
+
+![Unittest](./images/unittest.png)
+
+A função add simplesmente soma dois números e cria uma classe que herda de unittest.TestCase. Isso indica que essa classe contém testes unitários.
+
+Dentro da classe de teste, você define métodos de teste. Cada método de teste deve começar com a palavra-chave test.
+
+Dentro desses métodos, você usa assertivas (como **self.assertEqual**) para verificar se o comportamento esperado do código é atendido.
+
+A condição **if __name__ == '__main__':** garante que a suíte de testes seja executada somente se o script for executado diretamente (não se for importado como um módulo em outro script). **unittest.main()** executa todos os testes definidos na classe TestAddition.
