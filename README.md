@@ -697,3 +697,59 @@ Dentro da classe de teste, você define métodos de teste. Cada método de teste
 Dentro desses métodos, você usa assertivas (como **self.assertEqual**) para verificar se o comportamento esperado do código é atendido.
 
 A condição **if __name__ == '__main__':** garante que a suíte de testes seja executada somente se o script for executado diretamente (não se for importado como um módulo em outro script). **unittest.main()** executa todos os testes definidos na classe TestAddition.
+
+---
+# 𝐓𝐞𝐨𝐫𝐢𝐚 𝐝𝐞 𝐦𝐚𝐜𝐡𝐢𝐧𝐞 𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠
+
+- Machine Learning (ML), ou Aprendizado de Máquina, é um ramo da inteligência artificial voltado para a criação de algoritmos e modelos que aprendem padrões a partir de dados. Seu objetivo é permitir que computadores executem tarefas específicas sem programação explícita, evoluindo e melhorando com a experiência.
+
+O aprendizado ocorre por meio da análise de conjuntos de dados, identificando padrões e regras para realizar previsões ou tomar decisões em novas situações.
+
+No campo de ML existem diferentes abordagens: o aprendizado supervisionado, em que o modelo é treinado com dados rotulados; o não supervisionado, que busca padrões em dados não rotulados; e o aprendizado por reforço, no qual o modelo aprende interagindo com um ambiente e recebendo recompensas.
+
+Essas técnicas têm aplicações variadas, desde reconhecimento de imagens até apoio em decisões complexas em áreas como finanças e saúde. É um campo em rápida evolução, impulsionado por avanços tecnológicos e pelo aumento do volume de dados.
+
+Alguns dos modelos e algoritmos de ML mais utilizados são:
+
+**1-** Árvores de decisão: modelo que toma decisões com base em condições.
+
+**2-** Redes neurais: inspiradas no funcionamento do cérebro, são usadas para problemas complexos.
+
+**3-** Support Vector Machine (SVM): usado para classificação e regressão.
+
+**4-** K-Means: algoritmo de agrupamento utilizado no aprendizado não supervisionado.
+
+# 𝐓𝐢𝐩𝐨𝐬 𝐝𝐞 𝐭𝐫𝐞𝐢𝐧𝐚𝐦𝐞𝐧𝐭𝐨
+
+- Os tipos de treinamento em machine learning definem como o modelo aprende com os dados, cada um com características e aplicações próprias.
+
+No treinamento supervisionado, o modelo usa dados rotulados para aprender a prever saídas corretas, como na detecção de e-mails “spam”.
+
+No não supervisionado, o modelo trabalha com dados sem rótulos, identificando padrões, como no agrupamento de clientes por compras.
+
+No por reforço, o modelo interage com um ambiente e aprende a maximizar recompensas, como em jogos.
+
+# 𝐓𝐞𝐧𝐬𝐨𝐫𝐅𝐥𝐨𝐰
+
+- TensorFlow é uma biblioteca de código aberto desenvolvida pela Google que facilita a implementação de modelos de machine learning e deep learning. Sua estrutura flexível permite a criação e o treinamento de modelos complexos, sendo amplamente utilizada na comunidade de aprendizado de máquina.
+
+A seguir, vamos analisar três exemplos dessa biblioteca
+- Uma para treinamento supervisionado
+- Outro para treinamento não supervisionado
+- E, por fim, um para treinamento por reforço.
+
+### 𝐒𝐮𝐩𝐞𝐫𝐯𝐢𝐬𝐢𝐨𝐧𝐚𝐝𝐨
+
+![Supervisionado](./images/supervisionado.png)
+![Supervisionado pt 2](./images/supervisionadopt2.png)
+
+### 𝐍𝐚̃𝐨 𝐬𝐮𝐩𝐞𝐫𝐯𝐢𝐬𝐢𝐨𝐧𝐚𝐝𝐨
+
+![Não Supervisionado](./images/nsupervisionado.png)
+![Não Supervisionado pt 2](./images/nsupervisionadopt2.png)
+
+### 𝐏𝐨𝐫 𝐫𝐞𝐟𝐨𝐫𝐜̧𝐨
+
+![Por Reforço](./images/porreforço.png)
+![Por Reforço pt 2](./images/porreforçopt2.png)
+![Por Reforço pt 3](./images/porreforçopt3.png)
